@@ -1,5 +1,5 @@
 $date
-	Wed Jul 30 21:03:56 2025
+	Wed Jul 30 21:51:07 2025
 $end
 $version
 	Icarus Verilog
@@ -11,8 +11,8 @@ $scope module one_bit_comparator_tb $end
 $var wire 1 ! O3 $end
 $var wire 1 " O2 $end
 $var wire 1 # O1 $end
-$var reg 1 $ A $end
-$var reg 1 % B $end
+$var reg 1 $ a $end
+$var reg 1 % b $end
 $scope module uut $end
 $var wire 1 $ A $end
 $var wire 1 % B $end

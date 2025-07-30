@@ -1,12 +1,12 @@
 `timescale 1ns / 1ns
 module one_bit_comparator_tb;
 
-  reg A, B;
+  reg a, b;
   wire O1, O2, O3;
 
   one_bit_comparator uut (
-    .A(A),
-    .B(B),
+    .A(a),
+    .B(b),
     .o1(O1),
     .o2(O2),
     .o3(O3)
@@ -16,13 +16,13 @@ module one_bit_comparator_tb;
     $dumpfile("one_bit_comparator_waveform.vcd");
     $dumpvars(0, one_bit_comparator_tb);
 
-    A = 0; B = 0; 
+    a = 0; b = 0; 
     #10;
-    A = 0; B = 1; 
+    a = 0; b = 1; 
     #10;
-    A = 1; B = 0; 
+    a = 1; b = 0; 
     #10;
-    A = 1; B = 1; 
+    a = 1; b = 1; 
     #10;
 
     $finish;
